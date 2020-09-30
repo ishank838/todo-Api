@@ -9,14 +9,16 @@ Api for CRUD operations for a todo application.
 ```bash
 pg_dump -U postgres todo_app < pgDB.pgsql
 
-Password:ishank111```
+Password:ishank111
+```
 
 ## Run API
 
 ```bash
 go build
 
-go run todoApp```
+go run todoApp
+```
 
 ## Endpoints
 
@@ -27,4 +29,5 @@ POST := /add  Adds a new todo with initial status todo. Put data in body
 
 PUT := /update/id=1 Updates the status of the todo with the given id
 
-DELETE := /delete/id=1 Deletes the todo of the given task```
+DELETE := /delete/id=1 Deletes the todo of the given task
+```
