@@ -2,23 +2,26 @@
 
 Api for CRUD operations for a todo application.
 
-#Setup
+# Setup
 
-##Import Database
+## Import Database
 
-```pg_dump -U postgres todo_app < pgDB.pgsql
+```bash
+pg_dump -U postgres todo_app < pgDB.pgsql
 
 Password:ishank111```
 
-##Run API
+## Run API
 
-```go build
+```bash
+go build
 
 go run todoApp```
 
-##Endpoints
+## Endpoints
 
-```GET := /todos  Fetches the list of todos from the API
+```bash
+GET := /todos  Fetches the list of todos from the API
 
 POST := /add  Adds a new todo with initial status todo. Put data in body
 
