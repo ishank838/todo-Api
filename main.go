@@ -19,7 +19,6 @@ func main() {
 	r := mux.NewRouter()
 
 	db := driver.ConnectDB()
-	//defer db.Close()
 
 	a := app{Db: db}
 
